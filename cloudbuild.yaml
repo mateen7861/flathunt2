@@ -1,0 +1,9 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'gcr.io/room-rush-app/flathunter-job', '-f', 'Dockerfile.gcloud.job', '.']
+  # Push the container image to Container Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/room-rush-app/flathunter-job']
+images:
+  - gcr.io/room-rush-app/flathunter-job

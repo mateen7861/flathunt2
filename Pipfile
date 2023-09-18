@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+PyYAML = "*"
+requests = "*"
+urllib3 = "*"
+lxml = "*"
+coverage = "*"
+requests-mock = "*"
+Flask = "*"
+Flask-API = "*"
+firebase-admin = "*"
+mock-firestore = "*"
+pytest-mock = "*"
+pytest = "*"
+pylint = "*"
+requests-random-user-agent = "*"
+jsonpath-ng = "*"
+backoff = "*"
+pytz = "*"
+beautifulsoup4 = "*"
+pylint-runner = "*"
+webdriver-manager = "4.0.0"
+apprise = "*"
+python-dotenv = "*"
+undetected-chromedriver = "3.5.2"
+prompt-toolkit = "*"
+"ruamel.yaml" = "*"
+pyright = "*"
+types-beautifulsoup4 = "*"
+selenium = "*"
+gunicorn = "20.1.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3"

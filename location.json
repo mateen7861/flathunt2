@@ -1,0 +1,18 @@
+{
+  "immowelt": {
+    "munich": "https://www.immowelt.de/liste/muenchen/wohnungen/mieten?d=true&sd=DESC&sf=TIMESTAMP&sp=1",
+    "berlin": "https://www.immowelt.de/liste/berlin/wohnungen/mieten?d=true&sd=DESC&sf=TIMESTAMP&sp=1"
+  },
+  "wg": {
+    "munich": "https://www.wg-gesucht.de/wg-zimmer-und-1-zimmer-wohnungen-und-wohnungen-in-Muenchen.90.0+1+2.1.0.html",
+    "berlin": "https://www.wg-gesucht.de/wg-zimmer-und-1-zimmer-wohnungen-und-wohnungen-in-Berlin.8.0+1+2.1.0.html?csrf_token=&offer_filter=1&city_id=8&sort_column=0&sort_order=0&noDeact=&dFr=&dTo=&radLat=&radLng=&clear_vu=&autocompinp=Berlin+%28Berlin%29&country_code=de&city_name=Berlin&categories%5B%5D=0&categories%5B%5D=1&categories%5B%5D=2&sMin=&rMax=&pu=&hidden_dFrDe=&hidden_dToDe=&radAdd=&radDis=&wgSea=&wgMnF=&wgMxT=&wgAge=&wgSmo=&rmMin=&rmMax=&fur=&pet=&sin=&exc=&kit=&flo="
+  },
+  "immobilienscout24": {
+    "munich": "https://www.immobilienscout24.de/Suche/de/bayern/muenchen/moeblierte-wg?startrentaldate=2023-09-01&enteredFrom=result_list",
+    "berlin": "https://www.immobilienscout24.de/Suche/de/berlin/berlin/moeblierte-wg?startrentaldate=2023-09-01&enteredFrom=result_list"
+  },
+  "kleinanzeigen": {
+    "munich": "https://www.kleinanzeigen.de/s-immobilien/muenchen/anzeige:angebote/c195l6411",
+    "berlin": "https://www.kleinanzeigen.de/s-immobilien/berlin/anzeige:angebote/c195l3331"
+  }
+}
