@@ -11,7 +11,7 @@ class SenderWebhook(Processor, Notifier):
 		def __init__(self, config: YamlConfig, receivers=None):
 				self.config = config
 				self.api_key = self.config.webhook_api_key()
-				self.__webhook_url = "http:192.168.10.4:3000/webhook"
+				self.__webhook_url = "https://5773-39-40-178-230.ngrok.io/webhook"
 
 		
 		def notify(self, message: str):
