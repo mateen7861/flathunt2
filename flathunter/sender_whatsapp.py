@@ -12,10 +12,11 @@ class SenderWhatsapp(Processor, Notifier):
 				self.config = config
 				self.api_key = self.config.whatsapp_api_key()
 
-				self.__text_message_url = "https://server.crewmate.co/flathunt/whatsapp/api/sendText"
-				self.__send_seen_url = "https://server.crewmate.co/flathunt/whatsapp/api/sendSeen"
-				self.__start_typing_url = "https://server.crewmate.co/flathunt/whatsapp/api/startTyping"
-				self.__stop_typing_url = "https://server.crewmate.co/flathunt/whatsapp/api/stopTyping"
+				
+				self.__text_message_url = "https://5baa-39-40-166-132.ngrok.io/webhook"
+				self.__send_seen_url = "https://5baa-39-40-166-132.ngrok.io/webhook"
+				self.__start_typing_url = "https://5baa-39-40-166-132.ngrok.io/webhook"
+				self.__stop_typing_url = "https://5baa-39-40-166-132.ngrok.io/webhook"
 
 				if receivers is None:
 						self.receiver_ids = self.config.whatsapp_receiver_ids()
